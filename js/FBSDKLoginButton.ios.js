@@ -22,12 +22,12 @@
 
 'use strict';
 
-var React = require('react-native');
+var React = require('react');
 var {
   requireNativeComponent,
   NativeModules,
   StyleSheet,
-} = React;
+} = require('react-native');
 
 import type {
   FBSDKLoginCallback,
